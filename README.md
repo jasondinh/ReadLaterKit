@@ -22,7 +22,10 @@ For `Pocket`:
 	
 For `Instapaper`:
 	
-	//Instapaper supports XAuth for authentication, thus you don't need to remember username/password. Please discard them as soon as you retrieve the token & secret and use them instead. It's also your responsibility to save the token & secret for later usage
+	//Instapaper supports XAuth for authentication, thus you don't need to
+	//remember username/password. Please discard them as soon as you retrieve
+	//the token & secret and use them instead. It's also your responsibility 
+	//to save the token & secret for later usage
 	
 	ReadLaterKit *readLaterKit = [[ReadLaterKit alloc] init];
 	readLaterKit.delegate = self; //optional
@@ -34,7 +37,8 @@ For `Instapaper`:
 	
 `Readability` is similar to `Instapaper`. 
 
-`ReadLaterKit` supports `ReadLaterDelegate` with callback after a token request is succeeded/failed and a save request is succeeded/failed:
+`ReadLaterKit` supports `ReadLaterDelegate` with callback after a token 
+request is succeeded/failed and a save request is succeeded/failed:
 
 	- (void) readLaterGetTokenForInstapaperSuccess;
 	- (void) readLaterGetTokenForInstapaperFail: (NSError *) error;
@@ -57,4 +61,5 @@ To add more oAuth/xAuth support, look into `ReadLaterOAuth` class.
 
 ============
 
-ReadLaterKit is available under the MIT license. See the LICENSE file for more info.
+ReadLaterKit is available under the MIT license. See the LICENSE file for more 
+info.

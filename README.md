@@ -52,3 +52,9 @@ For `Instapaper`:
 	- (void) readLaterSaveToReadabilityFail:(NSURL *)url error: (NSError *) error;
 	
 To add more oAuth/xAuth support, look into `ReadLaterOAuth` class.
+
+##LICENSE##
+
+============
+
+ReadLaterKit is available under the MIT license. See the LICENSE file for more info.

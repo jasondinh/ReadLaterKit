@@ -29,7 +29,7 @@ For `Instapaper`:
 	
 	ReadLaterKit *readLaterKit = [[ReadLaterKit alloc] init];
 	readLaterKit.delegate = self; //optional
-	[readLaterKit getInstapaperTokenForUser: self.username.text password: self.password.text];
+	[readLaterKit getInstapaperTokenForUser: INSTAPAPER_USERNAME password: INSTAPAPER_PASSWORD];
 	
 	//after delegate callback readLaterGetTokenForInstapaperSuccess
 	[readLaterKit saveURL: URL toService: ReadLaterServiceTypeInstapaper];

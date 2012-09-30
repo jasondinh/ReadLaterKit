@@ -55,7 +55,7 @@ request is succeeded/failed and a save request is succeeded/failed:
 	- (void) readLaterSaveToReadabilitySuccess: (NSURL *) url;
 	- (void) readLaterSaveToReadabilityFail:(NSURL *)url error: (NSError *) error;
 	
-To add more oAuth/xAuth support, look into `ReadLaterOAuth` class.
+To add more service with oAuth/xAuth support, look into `ReadLaterOAuth` class.
 
 ##LICENSE##
 
